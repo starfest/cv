@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3> Simple Table with Header</h3>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Doe</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+        </tr>
+    </table>
+    <h3>Table with Thead, Tbody, and Tfoot</h3>
+    <h3></h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Header content 1</th>
+                <th>Header content 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Body content 1</td>
+                <td>Body content 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer content 1</td>
+                <td>Footer content 2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--<colgroup>: The Table Column Group element
+     The <colgroup> HTML element defines a group of columns within a table.-->
+    <table>
+        <caption>Superheros and sidekicks</caption>
+        <colgroup>
+            <col>
+            <col span="2" class="batman">
+            <col span="2" class="flash">
+        </colgroup>
+        <tr>
+            <td> </td>
+            <th scope="col">Batman</th>
+            <th scope="col">Robin</th>
+            <th scope="col">The Flash</th>
+            <th scope="col">Kid Flash</th>
+        </tr>
+        <th scope="row">Skill</th>
+        <td>Smarts</td>
+        <td>Dex, acrobat</td>
+        <td>Super speed</td>
+        <td>Super speed</td>
+        </tr>
+    </table>
+    <!--<table>: The Table element
+    The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.-->
+    <h3>Table with colgroup</h3>
+    <table>
+        <colgroup span="4"></colgroup>
+        <tr>
+            <th>Countries</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>Washington, D.C</td>
+            <td>309 million</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Sweden</td>
+            <td>Stockholm</td>
+            <td>9 million</td>
+            <td>Swedish</td>
+        </tr>
+    </table>
+    <h3>Table with colgroup and col</h3>
+    <table>
+        <colgroup>
+            <col style="background-color: #0f0">
+            <col span="2">
+        </colgroup>
+        <tr>
+            <th>Lime</th>
+            <th>Lemon</th>
+            <th>Orange</th>
+        </tr>
+        <tr>
+            <td>Green</td>
+            <td>Yellow</td>
+            <td>Orange</td>
+        </tr>
+    </table>
+</body>
+
+</html>
